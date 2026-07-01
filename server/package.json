@@ -1,0 +1,14 @@
+{
+  "name": "lianliankan-server",
+  "version": "1.0.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  },
+  "bin": "server.js",
+  "pkg": {
+    "targets": ["node18-win-x64"],
+    "output": "./连连看服务.exe"
+  }
+}
